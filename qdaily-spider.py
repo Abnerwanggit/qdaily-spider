@@ -19,7 +19,7 @@ end_id = 53911
 def create():
      # 创建数据库
     global conn
-    conn = sqlite3.connect('data.db')
+    conn = sqlite3.connect('qdaily.db')
     conn.execute("""
                 create table if not exists qdaily(
                 id INTEGER PRIMARY KEY ,
