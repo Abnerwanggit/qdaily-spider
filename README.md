@@ -25,9 +25,12 @@ http://www.qdaily.com/comments/article/38425/0.json
 可以看出越到后面，平均每篇文章的分享数就越多，可以反映出好奇心日报的用户数变多  
 
 ## 代码
-**爬虫代码在 [qdaily-spider](qdaily-spider.py)**  
-**生成词云代码在 [qdaily-comment](qdaily-comment.py)**  
-**生成文章id与分享数关系图的代码在 [qdaily-share](qdaily-share.py)**  
-
-
-
+**爬虫代码在 [qdaily-spider](qdaily-spider.py)**    
+**生成词云代码在 [qdaily-comment](qdaily-comment.py)**    
+**生成文章id与分享数关系图的代码在 [qdaily-share](qdaily-share.py)**    
+爬虫代码：  
+![code1.png](code1.png)  
+![code2.png](code2.png)  
+![code3.png](code3.png)  
+![code4.png](code4.png)  
+![code5.png](code5.png)  
