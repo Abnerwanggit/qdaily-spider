@@ -88,9 +88,7 @@ def func(id=0):
                 feeds.append(i)
         save(tuple1, feeds)
     except Exception as e:
-        print()
-        print(str(id)+"error!")
-        print(e)
+        pass
 
 
 def save(tuple1=None, list1=None):

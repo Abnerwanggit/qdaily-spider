@@ -10,11 +10,11 @@
 ## 准备工作
 
 第一步是发现好奇心日报的文章地址编码是按数字递增的，例如：
-http://www.qdaily.com/articles/38425.html
-截止今天，好奇心日报的文章编码已经从1到55613了，共5万篇文章。
+http://www.qdaily.com/articles/38425.html  
+截止今天，好奇心日报的文章编码已经从1到55613了，共5万篇文章。  
 然后我发现文章的标题，分享数和文章发布日期都写死在页面里，但是评论数不在页面中   
 为了找到评论数，我使用谷歌浏览器的F12的network功能，发现了评论是通过json数据获得的，地址类似：
-http://www.qdaily.com/comments/article/38425/0.json    
+http://www.qdaily.com/comments/article/38425/0.json     
 看到json的数据自带评论，于是我顺便把评论的内容也爬下来了，顺便做一个评论的词云    
 
 ## 爬虫代码编写
@@ -99,7 +99,7 @@ def save(tuple1=None, list1=None):
 **完整的爬虫代码在 [qdaily-spider](https://github.com/zhang0peter/qdaily-spider/blob/master/qdaily-spider.py)**    
 
 ## 爬虫结果展示
-
+我爬完5万篇文章用了快一天，虽然多线程可以加快速度，但我采用单线程减轻好奇心日报服务器的压力。  
 先是根据文章分享数排序：     
 ![share.png](share.png)     
 
